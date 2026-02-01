@@ -1,0 +1,21 @@
+{
+  "name": "greeting-action",
+  "version": "1.0.0",
+  "description": "A simple GitHub Action that greets users",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js -o dist"
+  },
+  "keywords": [
+    "actions",
+    "greeting"
+  ],
+  "author": "Om-2611",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.10.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.1"
+  }
+}

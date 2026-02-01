@@ -1,0 +1,17 @@
+name: 'Greeting Action'
+description: 'A simple action that greets a user'
+author: 'Om-2611'
+
+inputs:
+  who-to-greet:
+    description: 'Who to greet'
+    required: true
+    default: 'World'
+
+outputs:
+  greeting-message:
+    description: 'The greeting message'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
