@@ -11,6 +11,8 @@ jobs:
   test-action:
     runs-on: ubuntu-latest
     name: Test the greeting action
+    permissions:
+      contents: read
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
